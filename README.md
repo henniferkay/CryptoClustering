@@ -15,4 +15,7 @@ The optimal value for k was determined by two methods. First, an Elbow Curve was
 The other method we used to predict clusters was Princiapl Component Analysis (PCA). PCA is a dimentionality reduction technique that lowers the number of input features while retaining as much of the original information as possible. In this particular analysis, we reduced the features to 3 principal components. We fit the PCA data into the K-means model and examined their clustering pattern in a scatter plot.
 
 ## Results
-Both the Elbow and PCA methods suggested 4 as the best k value (number of clusters) for the cryptocurrency portfolio. However, PCA improved the clustering, meaning there were more prominent clusters when fewer features were used compared to the original data.
+Both keeping the data without PCA and transforming them with PCA suggested 4 as the best k value (number of clusters) for the cryptocurrency portfolio. However, PCA improved the clustering, meaning there were more prominent clusters when fewer features were used compared to the original data.
+
+<img src="Resources/elbow_curves.png">
+<img src="Resources/scatter_plots.png">
